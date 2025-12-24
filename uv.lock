@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "data-engineering-zooomcamp",
+    "pipeline",
+]
+
+[[package]]
+name = "data-engineering-zooomcamp"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "pipeline"
+version = "0.1.0"
+source = { virtual = "pipeline" }
